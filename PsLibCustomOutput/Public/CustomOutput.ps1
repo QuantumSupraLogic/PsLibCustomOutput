@@ -1,12 +1,4 @@
-#region documentation
-# writes messages to windows event log
-#endregion
 
-#region scriptheader
-#requires -version 5.0
-#endregion
-
-#region code
 class CustomOutput {
     [CustomOutputType] $outputType
 
@@ -38,4 +30,3 @@ enum CustomOutputType {
     Event_Log
     None
 }
-#endregion
