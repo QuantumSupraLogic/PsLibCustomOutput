@@ -1,4 +1,3 @@
-
 class CustomOutput {
     [CustomOutputType] $outputType
 
